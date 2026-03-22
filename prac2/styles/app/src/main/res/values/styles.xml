@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#0000FF</item>
+    </style>
+
+    <style name="HeadingText" parent="BaseText">
+        <item name="android:textSize">35sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SubHeadingText" parent="BaseText">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="PrimaryButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">#00574F</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+
+</resources>
